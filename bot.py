@@ -24,9 +24,9 @@ from telegram.error import TelegramError
 # ─────────────────────────────────────────────────────────
 # KONFIGURATSIYA
 # ─────────────────────────────────────────────────────────
-MAKER_BOT_TOKEN    = os.getenv("8894593843:AAEHdFpqfppl6nZcrR6E7GeRjuBrSyiFcRc")
-MAKER_ADMIN_ID     = int(os.getenv("8143880963", "0"))
-MAKER_ADMIN_USERNAME = os.getenv("khaidarov_uz", "admin")
+MAKER_BOT_TOKEN    = os.getenv("MAKER_BOT_TOKEN")
+MAKER_ADMIN_ID     = int(os.getenv("MAKER_ADMIN_ID", "0"))
+MAKER_ADMIN_USERNAME = os.getenv("MAKER_ADMIN_USERNAME", "admin")
 DB_PATH = "minimaker.db"
 PORT    = int(os.getenv("PORT", "9000"))
 
